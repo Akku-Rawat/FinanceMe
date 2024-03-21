@@ -35,7 +35,7 @@ function Income({setUser, user}) {
       <div className="hidden lg:block lg:w-52 rounded-lg lg:h-screen w-full mx-1">
         <Sidebar setUser={setUser} user={user}/>
       </div>
-      <div className="bg-red-200 w-full rounded-lg lg:m-3">
+      <div className="bg-emerald-50 border-2 border-blue-500 w-full rounded-lg lg:m-3">
         <div className="mx-3 lg:my-2 grid lg:h-full lg:grid-cols-6 lg:grid-rows-4 gap-x-7 px-3 grid-cols-1 grid-rows-1">
           <div className="lg:col-span-6 flex flex-col lg:flex-row lg:h-full lg:justify-between mt-3 lg:mt-0">
             <div className="flex items-center mt-3 lg:mt-0">
@@ -57,7 +57,7 @@ function Income({setUser, user}) {
           <div className="lg:row-span-3 lg:col-span-2 h-full">
             <Incomeform title="Add Income" />
           </div>
-          <div className="my-5 lg:my-0 lg:col-span-4 h-max lg:row-span-3 bg-slate-200 rounded-xl transform transition-all hover:-translate-y-0.5 duration-300 shadow-lg hover:shadow-xl z-1">
+          <div className="my-5 lg:my-0 lg:col-span-4 h-max lg:row-span-3 bg-green-100 border-2 border-green-500 rounded-xl transform transition-all hover:-translate-y-0.5 duration-300 shadow-lg hover:shadow-xl z-1">
             <span className="flex justify-center">
               <button>
                 <KeyboardDoubleArrowUpIcon />

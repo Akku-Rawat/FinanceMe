@@ -13,7 +13,7 @@ function Sidebar({setUser, user}) {
 
   }
   return (
-    <div className=" bg-indigo-950 text-white text-md font-sans min-h-screen px-3 py-2">
+    <div className=" bg-violet-700 text-white text-md font-sans min-h-screen px-3 py-2">
       <div className="flex">
         <span className="logo">FinanceMe</span>
       </div>
